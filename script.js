@@ -39,3 +39,6 @@ function convertToRoman(num) {
 
   return romanNumeral;
 }
+console.log(convertToRoman(14));    // Output: XIV
+console.log(convertToRoman(798));   // Output: DCCXCVIII
+console.log(convertToRoman(100000)); // Output: MMMMM
